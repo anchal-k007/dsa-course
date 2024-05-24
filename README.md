@@ -15,7 +15,7 @@ Links of important concepts
   * [Striver](https://www.youtube.com/watch?v=RRVYpIET_RU)
   * [Luv Babbar](https://www.youtube.com/watch?v=WgMPrLX-zsA)
     
-* **Custom Sort**
+* **Custom Sort** : If you want to swap, return `false`
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
  
 ---
