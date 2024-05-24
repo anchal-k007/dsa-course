@@ -17,6 +17,7 @@ Links of important concepts
     
 * **Custom Sort** : If you want to swap, return `false`
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
+  * Most common method is to return the actual order you want. For example to sort an array in decreasing order `return num1 > num2;`
     
 * **Lambda Functions** : Basic syntax
   ```cpp
@@ -25,7 +26,13 @@ Links of important concepts
      definition of method   
   } 
   ```
-  * Can ignore capture clause in most cases
+  * Can ignore capture clause and return-type in most cases
+  * Most common usage
+    ```cpp
+    sort(a.begin(), a.end(), [](int a, int b) -> {
+    		return a > b;
+    }
+    ```
   * [GFG Article](https://www.geeksforgeeks.org/lambda-expression-in-c/)
      
 ---
