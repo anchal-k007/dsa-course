@@ -27,7 +27,7 @@ Links of important concepts
   } 
   ```
   * Can ignore capture clause and return-type in most cases
-  * Most common usage
+  * Most common usage (sorts the vector in given order)
     ```cpp
     sort(a.begin(), a.end(), [](int a, int b) -> {
     		return a > b;
