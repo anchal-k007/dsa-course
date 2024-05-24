@@ -19,7 +19,7 @@ Links of important concepts
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
     
 * **Lambda Functions** : Basic syntax
-  ```
+  ```cpp
   [ capture clause ] (parameters) -> return-type  
   {   
      definition of method   
