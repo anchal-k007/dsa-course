@@ -17,7 +17,17 @@ Links of important concepts
     
 * **Custom Sort** : If you want to swap, return `false`
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
- 
+    
+* **Lambda Functions** : Basic syntax
+  ```
+  [ capture clause ] (parameters) -> return-type  
+  {   
+     definition of method   
+  } 
+  ```
+  * Can ignore capture clause in most cases
+  * [GFG Article](https://www.geeksforgeeks.org/lambda-expression-in-c/)
+     
 ---
 
 ## Arrays
