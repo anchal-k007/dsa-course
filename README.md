@@ -78,8 +78,9 @@ Template
 
  * **Subarray with Sum K**: **Important**
    * Using a map to store prefix sum values is an important concept. This is used in many questions. Have encountered it in OAs as well
-   * [Striver Article](https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/)  
-   * [GFG](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)  
+   * [Striver Article](https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/) [Striver Article 2](https://takeuforward.org/arrays/count-subarray-sum-equals-k/)  
+   * [GFG](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
+   * [LeetCode](https://takeuforward.org/arrays/count-subarray-sum-equals-k/)
 
   * 
 
