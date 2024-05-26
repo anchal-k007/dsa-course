@@ -37,10 +37,50 @@ Links of important concepts
      
 ---
 
+Template
+
+ * Question Name:
+   * Description 
+   * [LeetCode]()  
+   * [Striver Article]()  
+   * [GFG]()  
+
+---
+
 ## Arrays
 
 ### Easy
 
+  * **Kadane's Algo**: **Very Important**
+    * Used to find the maximum possible sum present in a subarray
+    * [LeetCode](https://leetcode.com/problems/maximum-subarray/description/)
+    * [Striver Article](https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/)  
+
+ * Union of 2 Sorted Arrays:
+   * Handling duplicates is the catch
+   * [Striver Article](https://takeuforward.org/data-structure/union-of-two-sorted-arrays/)  
+   * [GFG](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1)  
+
 ### Medium
+
+  * Rotate Array K times:
+    * There are many approaches, the most optimal is medium level, especially finding out the edge case. If not found, then it won't be solvable 
+    * [LeetCode](https://leetcode.com/problems/rotate-array/description/)
+    * [Striver Article](https://takeuforward.org/data-structure/rotate-array-by-k-elements/)
+      
+  * Next permutation: A nice, interesting question
+    * [LeetCode](https://leetcode.com/problems/next-permutation/description/)
+    * [Striver Article](https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/)
+      
+  * Stock Buy and Sell: There are a lot of iterations of this problem, which is essentially a set of DP problems. But the first iteration of the problem can be solved by simply using arrays
+    * [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  
+    * [Striver Article](https://takeuforward.org/data-structure/stock-buy-and-sell/)
+
+ * **Subarray with Sum K**: **Important**
+   * Using a map to store prefix sum values is an important concept. This is used in many questions. Have encountered it in OAs as well
+   * [Striver Article](https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/)  
+   * [GFG](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)  
+
+  * 
 
 ### Hard
