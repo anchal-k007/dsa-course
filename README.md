@@ -87,6 +87,13 @@ Template
    * [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/description/)  
    * [Striver Article](https://takeuforward.org/data-structure/set-matrix-zero/)  
 
-  * 
-
+  
+ * Find element in array having frequency > floor(size/2): **Moore's voting alog**
+   * When SC: O(1), then it is called Moore's voting algo. 
+   * [LeetCode](https://leetcode.com/problems/majority-element/)  
+   * [Striver Article](https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/)
+   * Similar problem is finding all the numbers having frequency greater than floor(size/3)
+   * [LeetCode](https://leetcode.com/problems/majority-element-ii/)  
+   * [Striver Article](https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/)
+ 
 ### Hard
