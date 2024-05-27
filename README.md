@@ -82,6 +82,11 @@ Template
    * [GFG](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
    * [LeetCode](https://takeuforward.org/arrays/count-subarray-sum-equals-k/)
 
+ * Set Matrix Zero: 
+   * SC: brute -> O(n2) , better -> O(n) , best -> O(1) . Thinking O(1) is tricky
+   * [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/description/)  
+   * [Striver Article](https://takeuforward.org/data-structure/set-matrix-zero/)  
+
   * 
 
 ### Hard
