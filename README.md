@@ -97,3 +97,30 @@ Template
    * [Striver Article](https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/)
  
 ### Hard
+
+ * 3 Sum: 
+   * Kinda medium hard. If you know the logic behind the optimal solution, it becomes intuitive. Handling duplicates is also challenging
+   * [LeetCode](https://leetcode.com/problems/3sum/description/)  
+   * [Striver Article](https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/)  
+   * [LeetCode](https://leetcode.com/problems/4sum/description/) -> Follow up question
+   * [Striver Article](https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/)  
+
+ * Count Inversions in an array:
+   * Involves merge sort. The intution to think in that direction is not an easy task
+   * [GFG](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1)  
+   * [Striver Article](https://takeuforward.org/data-structure/count-inversions-in-an-array/)  
+   * [LeetCode](https://leetcode.com/problems/reverse-pairs/) -> Follow up question
+   * [Striver Article](https://takeuforward.org/data-structure/count-reverse-pairs/)  
+
+## Bit Manipulation
+
+### Easy
+
+ * Find missing and repeating in array of 1-N:
+   * A classic bit manipulation question
+   * [Striver Article](https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/)  
+   * [GFG](https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1) 
+
+### Medium 
+
+### Hard
