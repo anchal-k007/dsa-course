@@ -82,13 +82,18 @@ Template
    * [GFG](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
    * [LeetCode](https://takeuforward.org/arrays/count-subarray-sum-equals-k/)
 
+ * **Merge Intervals**: **Important**
+   * This question forms the basis of a lot of DP problems
+   * [Striver Article](https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/)  
+   * [LeetCode](https://leetcode.com/problems/merge-intervals/description/)
+
  * Set Matrix Zero: 
    * SC: brute -> O(n2) , better -> O(n) , best -> O(1) . Thinking O(1) is tricky
    * [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/description/)  
    * [Striver Article](https://takeuforward.org/data-structure/set-matrix-zero/)  
 
   
- * Find element in array having frequency > floor(size/2): **Moore's voting alog**
+ * Find element in array having frequency > floor(size/2): **Moore's voting algo**
    * When SC: O(1), then it is called Moore's voting algo. 
    * [LeetCode](https://leetcode.com/problems/majority-element/)  
    * [Striver Article](https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/)
