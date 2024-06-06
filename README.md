@@ -15,9 +15,24 @@ Links of important concepts
   * [Striver](https://www.youtube.com/watch?v=RRVYpIET_RU)
   * [Luv Babbar](https://www.youtube.com/watch?v=WgMPrLX-zsA)
     
-* **Custom Sort** : If you want to swap, return `false`
+* **Custom Sorting Function** : If you want to swap, return `false`
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
   * Most common method is to return the actual order you want. For example to sort an array in decreasing order `return num1 > num2;`
+    
+* **Custom Sorting Comparator In Priority Queue** : If you want to swap, return `false`
+  * [GFG](https://www.geeksforgeeks.org/custom-comparator-in-priority_queue-in-cpp-stl/)
+  * When `true` is returned, it means the order is correct and **NO swapping** of elements takes place.
+  * ```cpp
+    class Compare {
+        public:
+           bool operator()(T a, T b){
+               if(cond){
+                   return true;
+               }
+               return false;
+          }
+    };
+    ```
     
 * **Lambda Functions** : Basic syntax
   ```cpp
