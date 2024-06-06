@@ -19,9 +19,10 @@ Links of important concepts
   * [Luv](https://www.youtube.com/watch?v=3pvZhwp0U9w)
   * Most common method is to return the actual order you want. For example to sort an array in decreasing order `return num1 > num2;`
     
-* **Custom Sorting Comparator In Priority Queue** : If you want to swap, return `false`
+* **Custom Sorting Comparator In Priority Queue** : If you want to swap, return `true` 
   * [GFG](https://www.geeksforgeeks.org/custom-comparator-in-priority_queue-in-cpp-stl/)
   * When `true` is returned, it means the order is correct and **NO swapping** of elements takes place.
+  * Return the reverse order of which you want at the top of your priority queue
   * ```cpp
     class Compare {
         public:
