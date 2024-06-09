@@ -11,6 +11,33 @@ The structure of the repo is as follows
 
 **Each branch points to the topic**
 
+## Binary Search
+
+### Easy
+
+ * Find Mininum In A Rotated Sorted Array:
+   * A classic BS question. Finding which portion to remove is the key problem
+   * [Striver Article](https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/)  
+   * [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+   * This is the follow up question, in which there duplicate values present in the array as well
+   * [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) 
+
+ * Search In A Rotated Sorted Array:
+   * A classic BS question. Finding which portion to remove is the key problem
+   * There are 2 implementations
+     * Find the minimum element in the array, using BS, and then perform the actual BS to search. Have this implemented here [LeetCode Submission](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/752863779/)
+     * Remove the part of the array in which we know the array won't be sorted. This is the approach explained in Striver's article 
+   * [Striver Article](https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/)  
+   * [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+   * This is the follow up question, in which there duplicate values present in the array as well
+   * [Striver Article](https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array-ii/)  
+   * [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) 
+
+### Medium 
+
+### Hard
+
+
 ## Appendix
 Links of important concepts 
 * **C++ STL Basics**
@@ -64,29 +91,3 @@ Template
    * [GFG]()  
 
 ---
-
-## Binary Search
-
-### Easy
-
- * Find Mininum In A Rotated Sorted Array:
-   * A classic BS question. Finding which portion to remove is the key problem
-   * [Striver Article](https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/)  
-   * [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
-   * This is the follow up question, in which there duplicate values present in the array as well
-   * [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) 
-
- * Search In A Rotated Sorted Array:
-   * A classic BS question. Finding which portion to remove is the key problem
-   * There are 2 implementations
-     * Find the minimum element in the array, using BS, and then perform the actual BS to search. Have this implemented here [LeetCode Submission](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/752863779/)
-     * Remove the part of the array in which we know the array won't be sorted. This is the approach explained in Striver's article 
-   * [Striver Article](https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/)  
-   * [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
-   * This is the follow up question, in which there duplicate values present in the array as well
-   * [Striver Article](https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array-ii/)  
-   * [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) 
-
-### Medium 
-
-### Hard
