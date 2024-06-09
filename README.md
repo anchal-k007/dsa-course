@@ -9,7 +9,7 @@ The structure of the repo is as follows
 3. Each topic will have sub-headings. Each sub-heading will mean a different level for the question of that topic.
 4. There will be a list of questions of each category level. It will contain the different links for that question, including videos, questions, articles, different solutions, etc.
 
-**Each branch points to the topic**
+**Each branch points to the corresponding topic**
 
 ## Binary Search
 
