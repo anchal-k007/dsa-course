@@ -35,7 +35,30 @@ The structure of the repo is as follows
 
 ### Medium 
 
+ * Koko Eating Bananas: **Problems involving reduction of search space based on answers**
+   * This is one of the many questions where Binary Search on answers is applied. The aim is to remove one end of the search space. Typically, these type of questions can be identified by terms such as **minimum of possible values** or vice versa. Another hint which we can take is that before a particular value answers are not possible, but after that, all values are possible. This means that the search space can be divided into solution possible and not possible, where corresponding values are sorted. 
+   * [LeetCode](https://leetcode.com/problems/koko-eating-bananas/description/)  
+   * [Striver Article](https://takeuforward.org/binary-search/koko-eating-bananas/)
+   * Other similar questions
+   * [LeetCode: Minimum Days to make m bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/description/) [Article](https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/)
+   * [LeetCode: Find smallest divisor given a threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/description/) [Article](https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/)
+   * [LeetCode: Capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/) [Article](https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/)
+   * [LeetCode: Split array largest sum](https://leetcode.com/problems/split-array-largest-sum/description/) [Article](https://takeuforward.org/arrays/split-array-largest-sum/)
+   * [GFG: Allocate Minimum number of pages](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1) [Article](https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/)
+   * [GFG: Aggresive Cows](https://www.geeksforgeeks.org/problems/aggressive-cows/0) [Article](https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/)
+  
 ### Hard
+  
+ * Kth missing Number In a sorted Array:
+   * The brute force approach is straight-forward. Optimising it to BS requires that we involve the index of the values as well, which is not so intuitive if the approach is not known. 
+   * [LeetCode](https://takeuforward.org/arrays/kth-missing-positive-number/)  
+   * [Striver Article](https://takeuforward.org/arrays/kth-missing-positive-number/)  
+   
+ * Median Of 2 Sorted Arrays:
+   * This question is a classic. Again, applying BS without using extra space is not so intuitive
+   * [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
+   * [Striver Article](https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/)  
+   
 
 
 ## Appendix
