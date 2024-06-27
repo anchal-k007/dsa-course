@@ -46,6 +46,11 @@ The structure of the repo is as follows
    * [LeetCode: Split array largest sum](https://leetcode.com/problems/split-array-largest-sum/description/) [Article](https://takeuforward.org/arrays/split-array-largest-sum/)
    * [GFG: Allocate Minimum number of pages](https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1) [Article](https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/)
    * [GFG: Aggresive Cows](https://www.geeksforgeeks.org/problems/aggressive-cows/0) [Article](https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/)
+
+ * Search An Element In a Matrix Sorted row and column wise:
+   * [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/)  
+   * [Striver Article](https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/)
+   * The follow up question (mentioned in the hard section) is follows the same concept, but needs a bit of trick to apply
   
 ### Hard
   
@@ -58,7 +63,11 @@ The structure of the repo is as follows
    * This question is a classic. Again, applying BS without using extra space is not so intuitive
    * [LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/)  
    * [Striver Article](https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/)  
-   
+
+ * Search An Element In a Matrix Sorted row wise:
+   * Doing it in O(nlogm) or O(mlogn) is not that difficult, but doing it in O(log(m+n)) requires thinking from a different direction
+   * [LeetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)  
+   * [Striver Article](https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/)
 
 
 ## Appendix
